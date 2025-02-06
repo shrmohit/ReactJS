@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Function_based_component() {
+  const [showText, setshowText] = useState("false");
+
+  function handletext() {
+    setshowText(!showText);
+  }
+
   return (
     <div>
-      <h4>function Component</h4>
+      {/* inline Css->style={{ color: "red" }} */}
+      <h2 style={{ color: "red" }}>{showText ? "function Component" : null}</h2>
+      <button onClick={handletext}>Click Me</button>
     </div>
   );
 }

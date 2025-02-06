@@ -10,12 +10,12 @@ function App() {
     <div>
       <h1>React JS Concepts 2024</h1>
       {/* <ClassBasedComponent /> */}
-      {/* <Function_based_component /> */}
-      <ProductList
+      <Function_based_component />
+      {/* <ProductList
         name="mohit"
         city="noida"
         dummmyProductData={dummmyProductData}
-      />
+      /> */}
       {/* name="mohit" -> this is a prop and this way is passed*/}
     </div>
   );
