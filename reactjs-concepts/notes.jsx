@@ -25,3 +25,6 @@
 // }
 
 // export default Function_based_component
+
+// PROPS
+// props is a way to transfer data from one component to another components
